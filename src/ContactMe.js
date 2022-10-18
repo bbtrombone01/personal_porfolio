@@ -29,7 +29,7 @@ const ContactMe =()=>{
 
     return(
         <div>
-            <p> feel free to contact me using this form, also my email adress is steven177@gmail.com</p>
+            <p> Please feel free to contact me (by using this form) with questions, comments, suggestions or concerns. I’m also available by email at steven177@gmail.com.</p>
             <form onSubmit={submitForm}>
             <p> contact me</p>
                 <label className="Emailers_Name">

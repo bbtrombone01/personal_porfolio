@@ -5,6 +5,7 @@ import ContactMe from './ContactMe';
 import ProjectsOverviewPage from './ProjectsOverviePage';
 import PageNotFound from './PageNotFound';
 import Navbar from './NavLink';
+import Footer from './Footer';
 
 function App() {
   return (
@@ -17,6 +18,8 @@ function App() {
       <Route path="/Projects" element={<ProjectsOverviewPage />} />
       <Route path="*" element={<PageNotFound />}/>
     </Routes>
+
+    <Footer />
 
     </div>
 
