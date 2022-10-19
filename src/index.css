@@ -1,4 +1,5 @@
 body {
+  background-color: #5cdb95;
   min-height: 100%;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -13,10 +14,63 @@ code {
     monospace;
 }
 
+.aboutDiv{
+  display: flex;
+  height: 10%;
+}
+
+.container1{
+  width: 50%;
+}
+
+.imageSteven{
+  height: 200px;
+  width:fit-content
+}
+
 footer {
+  background-color: #379683;
+  width: 100%;
   position: absolute;
   bottom: 0;
   display: flex;
   align-items: center;
   gap: 2%
 }
+
+.HotOrNot{
+  border: solid;
+  border-color: red;
+}
+
+/* a:visited {
+  text-decoration: none;
+  color: black;
+} */
+
+svg:visited{
+  text-decoration: none;
+}
+
+nav {
+  padding-top: 2%;
+  padding-bottom: 2%;
+  margin-bottom: 2%;
+  background-color: #379683
+}
+
+a {
+  width: 3%;
+}
+
+p {
+  color: #edf5e1
+}
+
+nav a {
+  text-decoration: none;
+  margin-right: 2%;
+  color: #05386b
+}
+
+
